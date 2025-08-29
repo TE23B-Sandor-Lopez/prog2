@@ -1,9 +1,9 @@
 ﻿int p1Hp = 100;
 int p2Hp = 200;
 
-Console.WriteLine("Välj en username")
-string p1Name = Console.ReadLine;
-string p2Name = "Calin";
+Console.WriteLine("Välj en username");
+string p1Name = Console.ReadLine();
+string p2Name = "";
 
 while (p1Hp > 0 && p2Hp > 0)
 {
